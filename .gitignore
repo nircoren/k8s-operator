@@ -1,0 +1,59 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+operator
+
+# Go
+*.test
+*.out
+go.work
+go.work.sum
+
+# Dependency directories
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/*.tfplan
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Docker
+*.log
+
+# Kubernetes
+*.kubeconfig
+kubeconfig
+
+# Environment
+.env
+.env.*
+*.pem
+*.key
+
+# Coverage
+coverage.out
+coverage.html
+
+# Build artifacts
+dist/
