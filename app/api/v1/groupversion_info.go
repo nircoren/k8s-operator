@@ -18,4 +18,5 @@ var (
 
 func init() {
 	SchemeBuilder.Register(&Greeting{}, &GreetingList{})
+	SchemeBuilder.Register(&SecurityPolicy{}, &SecurityPolicyList{})
 }
